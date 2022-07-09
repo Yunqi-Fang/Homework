@@ -20,7 +20,7 @@ alloc(创建对象，分配空间)->init(初始化对象，初始化数据)->loa
 
 1.继承UIViewController，实现UITableViewDataSource和UITableViewDelegate协议
 
-```
+```objective-c
 @interface UserInfoViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>{
 
 }
@@ -29,7 +29,7 @@ alloc(创建对象，分配空间)->init(初始化对象，初始化数据)->loa
 
 2.继承UITableViewController,UITableViewController默认实现UITableViewDataSource和UITableViewDelegate协议
 
-```
+```objective-c
 @interface UserInfoViewController : UITableViewController
 
 @end
@@ -37,9 +37,6 @@ alloc(创建对象，分配空间)->init(初始化对象，初始化数据)->loa
 
 3.直接声明
 
-```
+```objective-c
 @MainActor protocol UITableViewDelegate
 ```
-
-
-
