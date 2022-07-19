@@ -1,5 +1,6 @@
 ```objective-c
 // Student.h
+#import <Foundation/Foundation.h>
 @interface Student:NSObject{
     NSString * name;
     NSString * major;
