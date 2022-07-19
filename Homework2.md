@@ -25,7 +25,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Student * student = [[Student alloc] init];
-        [student study:24.2];
+        [student study:];
     }
     return 0;
 }
