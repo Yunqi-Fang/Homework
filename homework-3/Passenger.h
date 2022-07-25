@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) NSDate *starttime;
 @property (nonatomic, assign) NSInteger fare;
 
-- (instancetype)initOrders:(NSString *)passengerName trainnumber:(NSString *)trainNumber seatnumber:(NSInteger)seatNumber starttime:(NSDate *)starttime fare:(NSInteger)fare
+- (instancetype)initOrders:(NSString *)passengerName trainnumber:(NSString *)trainNumber seatnumber:(NSInteger)seatNumber starttime:(NSDate *)starttime fare:(NSInteger)fare;
 
 @end
 
