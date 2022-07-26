@@ -33,7 +33,11 @@
 }
 
 - (void)checkin:(Orders *) order{
-    [self.OutstandingOrder removeObject:order];
+    if(_OutstandingOrder != nil && ![_OutstandingOrder isKindOfClass:[NSNull class]] && _OutstandingOrder.count != 0){
+        [self.OutstandingOrder removeObject:order];
+    }else{
+        NSLog(@"No tickets exist！");
+    }
     [self.OrderHistory addObject:order];
 }
 
