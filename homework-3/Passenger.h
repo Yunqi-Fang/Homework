@@ -22,7 +22,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Passenger : Person
 
-@property (nonatomic, assign) BOOL ifeighteen;
+@property (nonatomic, assign) BOOL isAdult;
 @property (nonatomic, strong) NSMutableArray *OrderHistory;
 @property(nonatomic, strong) NSMutableArray *OutstandingOrder;
 
